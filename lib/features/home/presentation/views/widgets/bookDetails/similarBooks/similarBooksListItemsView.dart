@@ -17,7 +17,6 @@ class SimilarBooksListItemsBuilder extends StatelessWidget {
           );
         },
         itemCount: 6,
-        physics: const BouncingScrollPhysics(),
         scrollDirection: Axis.horizontal,
         shrinkWrap: true,
       ),
