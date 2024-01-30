@@ -35,4 +35,14 @@ abstract class TextStyles {
     fontSize: 30,
     fontFamily: 'GTB',
   );
+
+  static const hintTextStyle = TextStyle(
+    color: Colors.white12,
+    fontSize: 12,
+  );
+
+  static const searchTextStyle = TextStyle(
+    color: Colors.white60,
+    fontSize: 14,
+  );
 }
