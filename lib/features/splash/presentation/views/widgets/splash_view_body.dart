@@ -1,6 +1,6 @@
-import 'package:bookly_app/core/utils/appRouter.dart';
-import 'package:bookly_app/features/splashView/presentation/views/widgets/splashViewLogo.dart';
-import 'package:bookly_app/features/splashView/presentation/views/widgets/splashViewSlogan.dart';
+import 'package:bookly_app/core/utils/app_router.dart';
+import 'package:bookly_app/features/splash/presentation/views/widgets/splash_view_logo.dart';
+import 'package:bookly_app/features/splash/presentation/views/widgets/splash_view_slogan.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 

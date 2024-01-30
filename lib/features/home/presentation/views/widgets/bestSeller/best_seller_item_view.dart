@@ -1,7 +1,7 @@
-import 'package:bookly_app/core/utils/appRouter.dart';
+import 'package:bookly_app/core/utils/app_router.dart';
 import 'package:bookly_app/core/utils/styles.dart';
-import 'package:bookly_app/features/home/presentation/views/widgets/bookRatingView.dart';
-import 'package:bookly_app/features/home/presentation/views/widgets/books/bookItemView.dart';
+import 'package:bookly_app/features/home/presentation/views/widgets/book_rating_view.dart';
+import 'package:bookly_app/features/home/presentation/views/widgets/books/book_item_view.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:google_fonts/google_fonts.dart';

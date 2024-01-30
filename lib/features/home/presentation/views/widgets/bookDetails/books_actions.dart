@@ -1,5 +1,5 @@
 import 'package:bookly_app/core/utils/constants.dart';
-import 'package:bookly_app/core/utils/widget/customButton.dart';
+import 'package:bookly_app/core/utils/widget/custom_button.dart';
 import 'package:flutter/material.dart';
 
 class BooksActions extends StatelessWidget {

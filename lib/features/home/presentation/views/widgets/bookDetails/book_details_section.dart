@@ -1,8 +1,8 @@
 import 'package:bookly_app/core/utils/constants.dart';
 import 'package:bookly_app/core/utils/styles.dart';
-import 'package:bookly_app/features/home/presentation/views/widgets/bestSeller/customAppBarBookDetails.dart';
-import 'package:bookly_app/features/home/presentation/views/widgets/bookRatingView.dart';
-import 'package:bookly_app/features/home/presentation/views/widgets/books/bookItemView.dart';
+import 'package:bookly_app/features/home/presentation/views/widgets/bestSeller/custom_app_bar_book_details.dart';
+import 'package:bookly_app/features/home/presentation/views/widgets/book_rating_view.dart';
+import 'package:bookly_app/features/home/presentation/views/widgets/books/book_item_view.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
