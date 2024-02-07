@@ -7,9 +7,10 @@ abstract class Failures {
 }
 
 class ServerFailure extends Failures {
+  // constructor
   ServerFailure(super.errorMessage);
-
-  factory ServerFailure.formDioException(DioException dioException) {
+  // factory Constructor
+  factory ServerFailure.formDioExceptions(DioException dioException) {
     switch (dioException.type) {
       case DioExceptionType.connectionTimeout:
         return ServerFailure('Connection Timeout with API Server');
@@ -20,7 +21,7 @@ class ServerFailure extends Failures {
       case DioExceptionType.badCertificate:
         return ServerFailure('Bad Certificate with API Server');
       case DioExceptionType.badResponse:
-        return ServerFailure.formBadRespone(
+        return ServerFailure.formBadResponse(
             dioException.response!.statusCode, dioException.response!.data);
       case DioExceptionType.cancel:
         return ServerFailure('Request to API Server was Canceld');
@@ -35,7 +36,8 @@ class ServerFailure extends Failures {
         return ServerFailure('Opps There was an Error, Please try again');
     }
   }
-  factory ServerFailure.formBadRespone(int? statusCode, dynamic response) {
+
+  factory ServerFailure.formBadResponse(int? statusCode, dynamic response) {
     if (statusCode == 400 || statusCode == 401 || statusCode == 403) {
       return ServerFailure(response['error']['message']);
     } else if (statusCode == 404) {

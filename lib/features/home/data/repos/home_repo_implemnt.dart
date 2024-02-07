@@ -8,15 +8,16 @@ import 'package:dartz/dartz.dart';
 import 'package:dio/dio.dart';
 
 class HomeRepoImplement implements HomeRepo {
-  final endPoint =
-      'volumes?q=supject: programing&projection=full&orderBy=newest';
   final ApiService apiService;
 
   HomeRepoImplement(this.apiService);
   @override
   Future<Either<Failures, List<BooksModel>>> fetchBestSellerBooks() async {
     try {
-      var data = await apiService.get(endPoint: endPoint);
+      var data = await apiService.get(
+        endPoint:
+            'volumes?q=supject: programing&projection=full&orderBy=newest',
+      );
       //  List<BooksModel> books = [];
       // books.add(BooksModel.fromJson(data));
 
@@ -27,17 +28,30 @@ class HomeRepoImplement implements HomeRepo {
       return right(books);
     } catch (e) {
       if (e is DioException) {
-        return left(
-          ServerFailure.formDioException(e),
-        );
+        return left(ServerFailure.formDioExceptions(e));
+      } else {
+        return left(ServerFailure(e.toString()));
       }
-      return left(ServerFailure(e.toString()));
     }
   }
 
   @override
-  Future<Either<Failures, List<BooksModel>>> fetchBooks() {
-    // TODO: implement fetchBooks
-    throw UnimplementedError();
+  Future<Either<Failures, List<BooksModel>>> fetchBooks() async {
+    try {
+      var data = await apiService.get(
+        endPoint: 'volumes?q=supject: programing&projection=full',
+      );
+      List<BooksModel> books = [];
+      for (var item in data['items']) {
+        books.add(BooksModel.fromJson(item));
+      }
+      return right(books);
+    } catch (e) {
+      if (e is DioException) {
+        return left(ServerFailure.formDioExceptions(e));
+      } else {
+        return left(ServerFailure(e.toString()));
+      }
+    }
   }
 }
