@@ -16,13 +16,16 @@ class BookListViewItemsBuilder extends StatelessWidget {
           height: MediaQuery.of(context).size.height * .25,
           child: ListView.builder(
             padding: EdgeInsetsDirectional.zero,
-            itemBuilder: (index, context) {
-              return const Padding(
-                padding: EdgeInsetsDirectional.symmetric(horizontal: 10),
-                child: BookItemBuilder(),
+            itemBuilder: (context, index) {
+              return Padding(
+                padding: const EdgeInsetsDirectional.symmetric(horizontal: 10),
+                child: BookItemBuilder(
+                  thumbnailUrl:
+                      state.books[index].volumeInfo!.imageLinks.thumbnail,
+                ),
               );
             },
-            itemCount: 6,
+            itemCount: state.books.length,
             scrollDirection: Axis.horizontal,
           ),
         );

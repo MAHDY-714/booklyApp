@@ -1,8 +1,11 @@
-import 'package:bookly_app/core/utils/assets.dart';
 import 'package:flutter/material.dart';
 
 class BookItemBuilder extends StatelessWidget {
-  const BookItemBuilder({super.key});
+  const BookItemBuilder({
+    super.key,
+    required this.thumbnailUrl,
+  });
+  final String thumbnailUrl;
 
   @override
   Widget build(BuildContext context) {
@@ -15,10 +18,12 @@ class BookItemBuilder extends StatelessWidget {
         clipBehavior: Clip.antiAlias,
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(16),
-          image: const DecorationImage(
+          image: DecorationImage(
             fit: BoxFit.fill,
             isAntiAlias: true,
-            image: AssetImage(Assets.imagesTestImage),
+            image: NetworkImage(
+              thumbnailUrl,
+            ),
           ),
         ),
       ),

@@ -1,4 +1,5 @@
 import 'package:bookly_app/core/utils/app_router.dart';
+import 'package:bookly_app/core/utils/assets.dart';
 import 'package:bookly_app/core/utils/styles.dart';
 import 'package:bookly_app/features/home/presentation/views/widgets/book_rating_view.dart';
 import 'package:bookly_app/features/home/presentation/views/widgets/books/book_item_view.dart';
@@ -21,7 +22,9 @@ class NewestItemBuilder extends StatelessWidget {
         height: 125,
         child: Row(
           children: [
-            const BookItemBuilder(),
+            const BookItemBuilder(
+              thumbnailUrl: Assets.imagesTestImage,
+            ),
             const SizedBox(
               width: 20,
             ),

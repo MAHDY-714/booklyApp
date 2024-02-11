@@ -1,3 +1,4 @@
+import 'package:bookly_app/core/utils/assets.dart';
 import 'package:bookly_app/core/utils/constants.dart';
 import 'package:bookly_app/features/home/presentation/views/widgets/books/book_item_view.dart';
 import 'package:flutter/material.dart';
@@ -13,7 +14,9 @@ class SimilarBooksListItemsBuilder extends StatelessWidget {
         itemBuilder: (context, index) {
           return const Padding(
             padding: EdgeInsetsDirectional.symmetric(horizontal: 5.0),
-            child: BookItemBuilder(),
+            child: BookItemBuilder(
+              thumbnailUrl: Assets.imagesTestImage,
+            ),
           );
         },
         itemCount: 6,

@@ -1,3 +1,4 @@
+import 'package:bookly_app/core/utils/assets.dart';
 import 'package:bookly_app/core/utils/constants.dart';
 import 'package:bookly_app/core/utils/styles.dart';
 import 'package:bookly_app/features/home/presentation/views/widgets/bookDetails/custom_app_bar_book_details.dart';
@@ -19,7 +20,9 @@ class BookDetailsSection extends StatelessWidget {
         Padding(
           padding:
               EdgeInsetsDirectional.symmetric(horizontal: width(context) * .26),
-          child: const BookItemBuilder(),
+          child: const BookItemBuilder(
+            thumbnailUrl: Assets.imagesTestImage,
+          ),
         ),
         const SizedBox(height: 40),
         const Text(
