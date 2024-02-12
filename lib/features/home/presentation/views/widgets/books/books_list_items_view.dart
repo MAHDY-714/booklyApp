@@ -1,4 +1,4 @@
-import 'package:bookly_app/core/utils/styles.dart';
+import 'package:bookly_app/core/utils/widget/error_text_widget.dart';
 import 'package:bookly_app/core/utils/widget/loading_indecator._widget.dart';
 import 'package:bookly_app/features/home/presentation/manager/books_cubit/books_cubit.dart';
 import 'package:bookly_app/features/home/presentation/views/widgets/books/book_item_view.dart';
@@ -30,11 +30,9 @@ class BookListViewItemsBuilder extends StatelessWidget {
           ),
         );
       } else if (state is BooksFailure) {
-        return Center(
-            child: Text(
-          state.errorMessage,
-          style: TextStyles.textStyle16,
-        ));
+        return ErrorTextWidget(
+          errorMessage: state.errorMessage,
+        );
       } else {
         return const LoadingIndecatorWidget();
       }

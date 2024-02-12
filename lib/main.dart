@@ -4,7 +4,7 @@ import 'package:bookly_app/core/utils/constants.dart';
 import 'package:bookly_app/core/utils/service_locator.dart';
 import 'package:bookly_app/features/home/data/repos/home_repo_implemnt.dart';
 import 'package:bookly_app/features/home/presentation/manager/books_cubit/books_cubit.dart';
-import 'package:bookly_app/features/home/presentation/manager/newset_books_cubit/newset_books_cubit.dart';
+import 'package:bookly_app/features/home/presentation/manager/newest_books_cubit/newest_books_cubit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -23,9 +23,9 @@ class BooklyApp extends StatelessWidget {
     return MultiBlocProvider(
       providers: [
         BlocProvider(
-          create: (context) => NewsetBooksCubit(
+          create: (context) => NewestBooksCubit(
             getIt.get<HomeRepoImplement>(),
-          ),
+          )..fetchNewstBooks(),
         ),
         BlocProvider(
           create: (context) => BooksCubit(

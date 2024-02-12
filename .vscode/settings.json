@@ -1,4 +1,9 @@
 {
     "terminal.integrated.enableImages": true,
-    "editor.mouseWheelZoom": true
+    "editor.mouseWheelZoom": true,
+    "editor.cursorSurroundingLinesStyle": "all",
+    "editor.suggest.snippetsPreventQuickSuggestions": true,
+    "workbench.editor.enablePreviewFromQuickOpen": true,
+    "search.quickOpen.includeSymbols": true,
+    "commentTranslate.source": "Google"
 }

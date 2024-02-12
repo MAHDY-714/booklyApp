@@ -27,7 +27,7 @@ class HomeViewBody extends StatelessWidget {
                   bottom: 10,
                 ),
                 child: Text(
-                  'Newest Books',
+                  'Books',
                   style: TextStyles.textStyle24.copyWith(
                     fontFamily: GoogleFonts.montserrat(
                       fontWeight: FontWeight.w600,

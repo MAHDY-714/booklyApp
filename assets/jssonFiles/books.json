@@ -1,55 +1,342 @@
 {
   "kind": "books#volumes",
-  "totalItems": 423,
+  "totalItems": 179,
   "items": [
     {
       "kind": "books#volume",
-      "id": "gL34DwAAQBAJ",
-      "etag": "UrGgIBBJfZg",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/gL34DwAAQBAJ",
+      "id": "WdM_qxJq8T8C",
+      "etag": "9V2NzAhjN2I",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/WdM_qxJq8T8C",
       "volumeInfo": {
-        "title": "Concepts, Techniques, and Models of Computer Programming",
+        "title": "Peter Pan",
         "authors": [
-          "Peter Van Roy",
-          "Seif Haridi"
+          "James Matthew Barrie"
         ],
-        "publisher": "MIT Press",
-        "publishedDate": "2004-02-20",
-        "description": "Teaching the science and the technology of programming as a unified discipline that shows the deep relationships between programming paradigms. This innovative text presents computer programming as a unified discipline in a way that is both practical and scientifically sound. The book focuses on techniques of lasting value and explains them precisely in terms of a simple abstract machine. The book presents all major programming paradigms in a uniform framework that shows their deep relationships and how and where to use them together. After an introduction to programming concepts, the book presents both well-known and lesser-known computation models (\"programming paradigms\"). Each model has its own set of techniques and each is included on the basis of its usefulness in practice. The general models include declarative programming, declarative concurrency, message-passing concurrency, explicit state, object-oriented programming, shared-state concurrency, and relational programming. Specialized models include graphical user interface programming, distributed programming, and constraint programming. Each model is based on its kernel language—a simple core language that consists of a small number of programmer-significant elements. The kernel languages are introduced progressively, adding concepts one by one, thus showing the deep relationships between different models. The kernel languages are defined precisely in terms of a simple abstract machine. Because a wide variety of languages and programming paradigms can be modeled by a small set of closely related kernel languages, this approach allows programmer and student to grasp the underlying unity of programming. The book has many program fragments and exercises, all of which can be run on the Mozart Programming System, an Open Source software package that features an interactive incremental development environment.",
+        "publisher": "Sterling Publishing Company, Inc.",
+        "publishedDate": "2008",
+        "description": "The adventures of the three darling children in Never-Never Land with Peter Pan, the boy who would not grow up.",
         "industryIdentifiers": [
           {
-            "type": "ISBN_13",
-            "identifier": "9780262220699"
+            "type": "ISBN_10",
+            "identifier": "1402754264"
           },
           {
-            "type": "ISBN_10",
-            "identifier": "0262220695"
+            "type": "ISBN_13",
+            "identifier": "9781402754265"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 164,
+        "printType": "BOOK",
+        "categories": [
+          "Fairies"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.4.11.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=WdM_qxJq8T8C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=WdM_qxJq8T8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.eg/books?id=WdM_qxJq8T8C&printsec=frontcover&dq=subject:Fantasy&hl=&cd=1&source=gbs_api",
+        "infoLink": "http://books.google.com.eg/books?id=WdM_qxJq8T8C&dq=subject:Fantasy&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Peter_Pan.html?hl=&id=WdM_qxJq8T8C"
+      },
+      "saleInfo": {
+        "country": "EG",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "EG",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.eg/books/download/Peter_Pan-sample-epub.acsm?id=WdM_qxJq8T8C&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.eg/books/download/Peter_Pan-sample-pdf.acsm?id=WdM_qxJq8T8C&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=WdM_qxJq8T8C&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "mZsxAQAAMAAJ",
+      "etag": "NaRna78N9a0",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/mZsxAQAAMAAJ",
+      "volumeInfo": {
+        "title": "Peter and Wendy",
+        "authors": [
+          "James Matthew Barrie"
+        ],
+        "publisher": "Createspace Independent Publishing Platform",
+        "publishedDate": "1911",
+        "description": "The adventures of Peter Pan, the boy who would not grow up.",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "CORNELL:31924013211432"
           }
         ],
         "readingModes": {
           "text": false,
           "image": true
         },
-        "pageCount": 931,
+        "pageCount": 310,
         "printType": "BOOK",
         "categories": [
-          "Computers"
+          "Children"
         ],
         "maturityRating": "NOT_MATURE",
         "allowAnonLogging": false,
-        "contentVersion": "0.1.0.0.preview.1",
+        "contentVersion": "0.5.5.0.full.1",
         "panelizationSummary": {
           "containsEpubBubbles": false,
           "containsImageBubbles": false
         },
         "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=gL34DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=gL34DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "smallThumbnail": "http://books.google.com/books/content?id=mZsxAQAAMAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=mZsxAQAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         },
         "language": "en",
-        "previewLink": "http://books.google.com.eg/books?id=gL34DwAAQBAJ&printsec=frontcover&dq=programing&hl=&cd=1&source=gbs_api",
-        "infoLink": "http://books.google.com.eg/books?id=gL34DwAAQBAJ&dq=programing&hl=&source=gbs_api",
-        "canonicalVolumeLink": "https://books.google.com/books/about/Concepts_Techniques_and_Models_of_Comput.html?hl=&id=gL34DwAAQBAJ"
+        "previewLink": "http://books.google.com.eg/books?id=mZsxAQAAMAAJ&printsec=frontcover&dq=subject:Fantasy&hl=&cd=2&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=mZsxAQAAMAAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=mZsxAQAAMAAJ"
+      },
+      "saleInfo": {
+        "country": "EG",
+        "saleability": "FREE",
+        "isEbook": true,
+        "buyLink": "https://play.google.com/store/books/details?id=mZsxAQAAMAAJ&rdid=book-mZsxAQAAMAAJ&rdot=1&source=gbs_api"
+      },
+      "accessInfo": {
+        "country": "EG",
+        "viewability": "ALL_PAGES",
+        "embeddable": true,
+        "publicDomain": true,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false,
+          "downloadLink": "http://books.google.com.eg/books/download/Peter_and_Wendy.epub?id=mZsxAQAAMAAJ&hl=&output=epub&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "downloadLink": "http://books.google.com.eg/books/download/Peter_and_Wendy.pdf?id=mZsxAQAAMAAJ&hl=&output=pdf&sig=ACfU3U3d_XMlpQoJfmpYWd49G9TFDGs1dQ&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=mZsxAQAAMAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "1FrJqcRILaoC",
+      "etag": "itJvRBO8hYg",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/1FrJqcRILaoC",
+      "volumeInfo": {
+        "title": "Ficciones. C Edited and with an Introduction by Anthony Kerrigan",
+        "authors": [
+          "Jorge Luis Borges"
+        ],
+        "publisher": "Grove Press",
+        "publishedDate": "1962",
+        "description": "Seventeen short stories.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0802130305"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780802130303"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 184,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "averageRating": 4.5,
+        "ratingsCount": 20,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.6.6.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=1FrJqcRILaoC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=1FrJqcRILaoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.eg/books?id=1FrJqcRILaoC&printsec=frontcover&dq=subject:Fantasy&hl=&cd=3&source=gbs_api",
+        "infoLink": "http://books.google.com.eg/books?id=1FrJqcRILaoC&dq=subject:Fantasy&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Ficciones_C_Edited_and_with_an_Introduct.html?hl=&id=1FrJqcRILaoC"
+      },
+      "saleInfo": {
+        "country": "EG",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "EG",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.eg/books/download/Ficciones_C_Edited_and_with_an_Introduct-sample-epub.acsm?id=1FrJqcRILaoC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.eg/books/download/Ficciones_C_Edited_and_with_an_Introduct-sample-pdf.acsm?id=1FrJqcRILaoC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=1FrJqcRILaoC&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "i2MCAAAAYAAJ",
+      "etag": "ANRlLl33GXk",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/i2MCAAAAYAAJ",
+      "volumeInfo": {
+        "title": "Through the Looking Glass",
+        "subtitle": "And what Alice Found There",
+        "authors": [
+          "Lewis Carroll"
+        ],
+        "publishedDate": "1897",
+        "description": "In this sequel to Alice in Wonderland, Alice climbs through a mirror in her room and enters a world similar to a chess board where she experiences many curious adventures with its fantastic inhabitants.",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "NYPL:33433082531603"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 232,
+        "printType": "BOOK",
+        "categories": [
+          "Adventure and adventurers"
+        ],
+        "averageRating": 4,
+        "ratingsCount": 4,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.3.8.0.full.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=i2MCAAAAYAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=i2MCAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.eg/books?id=i2MCAAAAYAAJ&printsec=frontcover&dq=subject:Fantasy&hl=&cd=4&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=i2MCAAAAYAAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=i2MCAAAAYAAJ"
+      },
+      "saleInfo": {
+        "country": "EG",
+        "saleability": "FREE",
+        "isEbook": true,
+        "buyLink": "https://play.google.com/store/books/details?id=i2MCAAAAYAAJ&rdid=book-i2MCAAAAYAAJ&rdot=1&source=gbs_api"
+      },
+      "accessInfo": {
+        "country": "EG",
+        "viewability": "ALL_PAGES",
+        "embeddable": true,
+        "publicDomain": true,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false,
+          "downloadLink": "http://books.google.com.eg/books/download/Through_the_Looking_Glass.epub?id=i2MCAAAAYAAJ&hl=&output=epub&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "downloadLink": "http://books.google.com.eg/books/download/Through_the_Looking_Glass.pdf?id=i2MCAAAAYAAJ&hl=&output=pdf&sig=ACfU3U1ruQH1kMElDbiRPH7776rUzJQcvA&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=i2MCAAAAYAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "Mo7D3Je7_DMC",
+      "etag": "oNFWvoXPlPI",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/Mo7D3Je7_DMC",
+      "volumeInfo": {
+        "title": "The Wind in the Willows",
+        "authors": [
+          "Kenneth Grahame"
+        ],
+        "publisher": "Wordsworth Editions",
+        "publishedDate": "1993",
+        "description": "The tales of Ratty, Mole, Badger and Toad. When Mole goes boating with the Water Rat instead of spring-cleaning, he discovers a new world. As well as the river and the Wild Wood, there is Toad's craze for fast travel which leads him and his friends on a whirl of trains, barges, gipsy caravans and motor cars and even into battle.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "185326122X"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781853261220"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 198,
+        "printType": "BOOK",
+        "categories": [
+          "Juvenile Fiction"
+        ],
+        "averageRating": 4.5,
+        "ratingsCount": 7,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.10.8.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=Mo7D3Je7_DMC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=Mo7D3Je7_DMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.eg/books?id=Mo7D3Je7_DMC&printsec=frontcover&dq=subject:Fantasy&hl=&cd=5&source=gbs_api",
+        "infoLink": "http://books.google.com.eg/books?id=Mo7D3Je7_DMC&dq=subject:Fantasy&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_Wind_in_the_Willows.html?hl=&id=Mo7D3Je7_DMC"
       },
       "saleInfo": {
         "country": "EG",
@@ -67,52 +354,58 @@
         },
         "pdf": {
           "isAvailable": true,
-          "acsTokenLink": "http://books.google.com.eg/books/download/Concepts_Techniques_and_Models_of_Comput-sample-pdf.acsm?id=gL34DwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          "acsTokenLink": "http://books.google.com.eg/books/download/The_Wind_in_the_Willows-sample-pdf.acsm?id=Mo7D3Je7_DMC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
         },
-        "webReaderLink": "http://play.google.com/books/reader?id=gL34DwAAQBAJ&hl=&source=gbs_api",
+        "webReaderLink": "http://play.google.com/books/reader?id=Mo7D3Je7_DMC&hl=&source=gbs_api",
         "accessViewStatus": "SAMPLE",
         "quoteSharingAllowed": false
-      },
-      "searchInfo": {
-        "textSnippet": "This innovative text presents computer programming as a unified discipline in a way that is both practical and scientifically sound."
       }
     },
     {
       "kind": "books#volume",
-      "id": "hDGZzgEACAAJ",
-      "etag": "GpYgjn4Tcpg",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/hDGZzgEACAAJ",
+      "id": "bIZiAAAAMAAJ",
+      "etag": "FhCeNoom97E",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/bIZiAAAAMAAJ",
       "volumeInfo": {
-        "title": "Go for Beginners",
-        "subtitle": "A Genius Guide to Go Programing",
+        "title": "A Game of Thrones",
         "authors": [
-          "Edward Thornton"
+          "George R. R. Martin"
         ],
-        "publishedDate": "2021-08-05",
-        "description": "Quickly Learn the Language Designed For the Cloud! Are you looking to uplevel your computer skills with a modern language? Do you want a language that's easy to learn yet results in excellent performance? Wouldn't it be great to take care of little coding tasks, especially if you're writing them in multiple languages right now? Whether you're an experienced coder or an extreme newbie, Go is the language for you. Also known as Golang, it was developed by Google engineers tired of waiting for their programs in other languages to execute. In this book, you'll discover the basics to get started coding in Go. You'll learn not only about the usual constants, variables, identifiers and structs... ...But also about channels, used as communication pipelines, and the ability to test and benchmark easily, by importing a simple package. Learning how to program, or program in a new language, doesn't have to be a time suck. Discover what you need to know so you can get Go-ing. Why wait to get started on your newest skill? Click here to buy the book and find out why so many programmers now prefer Golang!",
+        "publisher": "Bantam",
+        "publishedDate": "2011",
+        "description": "Fantasy-roman.",
         "industryIdentifiers": [
           {
-            "type": "ISBN_13",
-            "identifier": "9798539962739"
+            "type": "OTHER",
+            "identifier": "UOM:39015050507618"
           }
         ],
         "readingModes": {
           "text": false,
           "image": false
         },
-        "pageCount": 208,
+        "pageCount": 876,
         "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "averageRating": 4.5,
+        "ratingsCount": 130,
         "maturityRating": "NOT_MATURE",
         "allowAnonLogging": false,
-        "contentVersion": "preview-1.0.0",
+        "contentVersion": "1.2.2.0.preview.0",
         "panelizationSummary": {
           "containsEpubBubbles": false,
           "containsImageBubbles": false
         },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=bIZiAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=bIZiAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
         "language": "en",
-        "previewLink": "http://books.google.com.eg/books?id=hDGZzgEACAAJ&dq=programing&hl=&cd=2&source=gbs_api",
-        "infoLink": "http://books.google.com.eg/books?id=hDGZzgEACAAJ&dq=programing&hl=&source=gbs_api",
-        "canonicalVolumeLink": "https://books.google.com/books/about/Go_for_Beginners.html?hl=&id=hDGZzgEACAAJ"
+        "previewLink": "http://books.google.com.eg/books?id=bIZiAAAAMAAJ&dq=subject:Fantasy&hl=&cd=6&source=gbs_api",
+        "infoLink": "http://books.google.com.eg/books?id=bIZiAAAAMAAJ&dq=subject:Fantasy&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/A_Game_of_Thrones.html?hl=&id=bIZiAAAAMAAJ"
       },
       "saleInfo": {
         "country": "EG",
@@ -131,256 +424,60 @@
         "pdf": {
           "isAvailable": false
         },
-        "webReaderLink": "http://play.google.com/books/reader?id=hDGZzgEACAAJ&hl=&source=gbs_api",
+        "webReaderLink": "http://play.google.com/books/reader?id=bIZiAAAAMAAJ&hl=&source=gbs_api",
         "accessViewStatus": "NONE",
         "quoteSharingAllowed": false
-      },
-      "searchInfo": {
-        "textSnippet": "In this book, you&#39;ll discover the basics to get started coding in Go. You&#39;ll learn not only about the usual constants, variables, identifiers and structs... .."
       }
     },
     {
       "kind": "books#volume",
-      "id": "KF0PEAAAQBAJ",
-      "etag": "e9CRIWcD/Jk",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/KF0PEAAAQBAJ",
+      "id": "xLacAgAAQBAJ",
+      "etag": "GmmeFoErwrk",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/xLacAgAAQBAJ",
       "volumeInfo": {
-        "title": "Computer Programming for Beginners",
-        "subtitle": "A Step-By-Step Guide",
+        "title": "The Assassin's Blade",
         "authors": [
-          "Murali Chemuturi"
+          "Sarah J. Maas"
         ],
-        "publisher": "CRC Press",
-        "publishedDate": "2018-09-03",
-        "description": "This book aims to capture the fundamentals of computer programming without tying the topic to any specific programming language. To the best of the authors’ knowledge there is no such book in the market.",
+        "publisher": "A&C Black",
+        "publishedDate": "2014",
+        "description": "Celaena Sardothien is Adarlan's most feared assassin. As part of the Assassins' Guild, her allegiance is to her master, Arobynn Hamel, yet Celaena listens to no one and trusts only her fellow killer-for-hire, Sam. In these action-packed prequel novellas - together in one edition for the first time - Celaena embarks on five daring missions. They take her from remote islands to hostile deserts, where she fights to liberate slaves and seeks to avenge the tyrannous. But she is acting against Arobynn's orders and could suffer an unimaginable punishment for such treachery ...Explore the dark underworld of this kick-ass heroine and find out how the legend begins in the five page-turning prequel novellas to the New York Times bestselling Throne of Glass series.",
         "industryIdentifiers": [
           {
             "type": "ISBN_13",
-            "identifier": "9780429842153"
+            "identifier": "9781408851982"
           },
           {
             "type": "ISBN_10",
-            "identifier": "0429842155"
+            "identifier": "1408851989"
           }
         ],
         "readingModes": {
           "text": false,
           "image": true
         },
-        "pageCount": 258,
+        "pageCount": 465,
         "printType": "BOOK",
         "categories": [
-          "Computers"
-        ],
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": false,
-        "contentVersion": "0.1.1.0.preview.1",
-        "panelizationSummary": {
-          "containsEpubBubbles": false,
-          "containsImageBubbles": false
-        },
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=KF0PEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=KF0PEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-        },
-        "language": "en",
-        "previewLink": "http://books.google.com.eg/books?id=KF0PEAAAQBAJ&printsec=frontcover&dq=programing&hl=&cd=3&source=gbs_api",
-        "infoLink": "https://play.google.com/store/books/details?id=KF0PEAAAQBAJ&source=gbs_api",
-        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=KF0PEAAAQBAJ"
-      },
-      "saleInfo": {
-        "country": "EG",
-        "saleability": "FOR_SALE",
-        "isEbook": true,
-        "listPrice": {
-          "amount": 2322.59,
-          "currencyCode": "EGP"
-        },
-        "retailPrice": {
-          "amount": 2322.59,
-          "currencyCode": "EGP"
-        },
-        "buyLink": "https://play.google.com/store/books/details?id=KF0PEAAAQBAJ&rdid=book-KF0PEAAAQBAJ&rdot=1&source=gbs_api",
-        "offers": [
-          {
-            "finskyOfferType": 1,
-            "listPrice": {
-              "amountInMicros": 2322590000,
-              "currencyCode": "EGP"
-            },
-            "retailPrice": {
-              "amountInMicros": 2322590000,
-              "currencyCode": "EGP"
-            }
-          }
-        ]
-      },
-      "accessInfo": {
-        "country": "EG",
-        "viewability": "PARTIAL",
-        "embeddable": true,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": false
-        },
-        "pdf": {
-          "isAvailable": true,
-          "acsTokenLink": "http://books.google.com.eg/books/download/Computer_Programming_for_Beginners-sample-pdf.acsm?id=KF0PEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=KF0PEAAAQBAJ&hl=&source=gbs_api",
-        "accessViewStatus": "SAMPLE",
-        "quoteSharingAllowed": false
-      },
-      "searchInfo": {
-        "textSnippet": "This book aims to capture the fundamentals of computer programming without tying the topic to any specific programming language. To the best of the authors’ knowledge there is no such book in the market."
-      }
-    },
-    {
-      "kind": "books#volume",
-      "id": "_KbfCQAAQBAJ",
-      "etag": "+nGC0WB3O4k",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/_KbfCQAAQBAJ",
-      "volumeInfo": {
-        "title": "The Practice of Programming",
-        "authors": [
-          "Brian W. Kernighan",
-          "Rob Pike"
-        ],
-        "publisher": "Addison-Wesley Professional",
-        "publishedDate": "1999-02-09",
-        "description": "With the same insight and authority that made their book The Unix Programming Environment a classic, Brian Kernighan and Rob Pike have written The Practice of Programming to help make individual programmers more effective and productive. The practice of programming is more than just writing code. Programmers must also assess tradeoffs, choose among design alternatives, debug and test, improve performance, and maintain software written by themselves and others. At the same time, they must be concerned with issues like compatibility, robustness, and reliability, while meeting specifications. The Practice of Programming covers all these topics, and more. This book is full of practical advice and real-world examples in C, C++, Java, and a variety of special-purpose languages. It includes chapters on: debugging: finding bugs quickly and methodically testing: guaranteeing that software works correctly and reliably performance: making programs faster and more compact portability: ensuring that programs run everywhere without change design: balancing goals and constraints to decide which algorithms and data structures are best interfaces: using abstraction and information hiding to control the interactions between components style: writing code that works well and is a pleasure to read notation: choosing languages and tools that let the machine do more of the work Kernighan and Pike have distilled years of experience writing programs, teaching, and working with other programmers to create this book. Anyone who writes software will profit from the principles and guidance in The Practice of Programming.",
-        "industryIdentifiers": [
-          {
-            "type": "ISBN_13",
-            "identifier": "9780133133417"
-          },
-          {
-            "type": "ISBN_10",
-            "identifier": "0133133419"
-          }
-        ],
-        "readingModes": {
-          "text": true,
-          "image": true
-        },
-        "pageCount": 283,
-        "printType": "BOOK",
-        "categories": [
-          "Computers"
+          "Juvenile Fiction"
         ],
         "averageRating": 5,
         "ratingsCount": 1,
         "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": true,
-        "contentVersion": "0.5.4.0.preview.3",
-        "panelizationSummary": {
-          "containsEpubBubbles": false,
-          "containsImageBubbles": false
-        },
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=_KbfCQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=_KbfCQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-        },
-        "language": "en",
-        "previewLink": "http://books.google.com.eg/books?id=_KbfCQAAQBAJ&printsec=frontcover&dq=programing&hl=&cd=4&source=gbs_api",
-        "infoLink": "https://play.google.com/store/books/details?id=_KbfCQAAQBAJ&source=gbs_api",
-        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=_KbfCQAAQBAJ"
-      },
-      "saleInfo": {
-        "country": "EG",
-        "saleability": "FOR_SALE",
-        "isEbook": true,
-        "listPrice": {
-          "amount": 809.37,
-          "currencyCode": "EGP"
-        },
-        "retailPrice": {
-          "amount": 809.37,
-          "currencyCode": "EGP"
-        },
-        "buyLink": "https://play.google.com/store/books/details?id=_KbfCQAAQBAJ&rdid=book-_KbfCQAAQBAJ&rdot=1&source=gbs_api",
-        "offers": [
-          {
-            "finskyOfferType": 1,
-            "listPrice": {
-              "amountInMicros": 809370000,
-              "currencyCode": "EGP"
-            },
-            "retailPrice": {
-              "amountInMicros": 809370000,
-              "currencyCode": "EGP"
-            }
-          }
-        ]
-      },
-      "accessInfo": {
-        "country": "EG",
-        "viewability": "PARTIAL",
-        "embeddable": true,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
-        "epub": {
-          "isAvailable": false
-        },
-        "pdf": {
-          "isAvailable": false
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=_KbfCQAAQBAJ&hl=&source=gbs_api",
-        "accessViewStatus": "SAMPLE",
-        "quoteSharingAllowed": false
-      },
-      "searchInfo": {
-        "textSnippet": "The Practice of Programming covers all these topics, and more. This book is full of practical advice and real-world examples in C, C++, Java, and a variety of special-purpose languages."
-      }
-    },
-    {
-      "kind": "books#volume",
-      "id": "abnIAgAAQBAJ",
-      "etag": "gcXNu1cQ/0w",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/abnIAgAAQBAJ",
-      "volumeInfo": {
-        "title": "Beginning Programming All-in-One Desk Reference For Dummies",
-        "authors": [
-          "Wallace Wang"
-        ],
-        "publisher": "John Wiley & Sons",
-        "publishedDate": "2008-06-03",
-        "description": "he fun, fast, and easy way to learn programming fundamentals and essentials – from C to Visual Basic and all the languages in between So you want to be a programmer? Or maybe you just want to make your computer do what YOU want for a change? Maybe you enjoy the challenge of identifying a problem and solving it. If programming intrigues you (for whatever reason), Beginning Programming All-In-One Desk Reference For Dummies is like having a starter programming library all in one handy, if hefty, book. In this practical guide, you’ll find out about algorithms, best practices, compiling, debugging your programs, and much more. The concepts are illustrated in several different programming languages, so you’ll get a feel for the variety of languages and the needs they fill. Inside you’ll discover seven minibooks: Getting Started: From learning methods for writing programs to becoming familiar with types of programming languages, you’ll lay the foundation for your programming adventure with this minibook. Programming Basics: Here you’ll dive into how programs work, variables, data types, branching, looping, subprograms, objects, and more. Data Structures: From structures, arrays, sets, linked lists, and collections, to stacks, queues, graphs, and trees, you’ll dig deeply into the data. Algorithms: This minibook shows you how to sort and search algorithms, how to use string searching, and gets into data compression and encryption. Web Programming: Learn everything you need to know about coding for the web: HyperText. Markup Language (better known simply as HTML), CSS, JavaScript, PHP, and Ruby. Programming Language Syntax: Introduces you to the syntax of various languages – C, C++, Java, C#, Perl, Python, Pascal, Delphi, Visual Basic, REALbasic – so you know when to use which one. Applications: This is the fun part where you put your newly developed programming skills to work in practical ways. Additionally, Beginning Programming All-In-One Desk Reference For Dummies shows you how to decide what you want your program to do, turn your instructions into “machine language” that the computer understands, use programming best practices, explore the “how” and “why” of data structuring, and more. And you’ll get a look into various applications like database management, bioinformatics, computer security, and artificial intelligence. After you get this book and start coding, you’ll soon realize that — wow! You’re a programmer!",
-        "industryIdentifiers": [
-          {
-            "type": "ISBN_13",
-            "identifier": "9780470108543"
-          },
-          {
-            "type": "ISBN_10",
-            "identifier": "0470108541"
-          }
-        ],
-        "readingModes": {
-          "text": false,
-          "image": true
-        },
-        "pageCount": 723,
-        "printType": "BOOK",
-        "categories": [
-          "Computers"
-        ],
-        "maturityRating": "NOT_MATURE",
         "allowAnonLogging": false,
-        "contentVersion": "1.4.2.0.preview.1",
+        "contentVersion": "1.1.2.0.preview.1",
         "panelizationSummary": {
           "containsEpubBubbles": false,
           "containsImageBubbles": false
         },
         "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=abnIAgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=abnIAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "smallThumbnail": "http://books.google.com/books/content?id=xLacAgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=xLacAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         },
         "language": "en",
-        "previewLink": "http://books.google.com.eg/books?id=abnIAgAAQBAJ&printsec=frontcover&dq=programing&hl=&cd=5&source=gbs_api",
-        "infoLink": "http://books.google.com.eg/books?id=abnIAgAAQBAJ&dq=programing&hl=&source=gbs_api",
-        "canonicalVolumeLink": "https://books.google.com/books/about/Beginning_Programming_All_in_One_Desk_Re.html?hl=&id=abnIAgAAQBAJ"
+        "previewLink": "http://books.google.com.eg/books?id=xLacAgAAQBAJ&printsec=frontcover&dq=subject:Fantasy&hl=&cd=7&source=gbs_api",
+        "infoLink": "http://books.google.com.eg/books?id=xLacAgAAQBAJ&dq=subject:Fantasy&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_Assassin_s_Blade.html?hl=&id=xLacAgAAQBAJ"
       },
       "saleInfo": {
         "country": "EG",
@@ -398,64 +495,129 @@
         },
         "pdf": {
           "isAvailable": true,
-          "acsTokenLink": "http://books.google.com.eg/books/download/Beginning_Programming_All_in_One_Desk_Re-sample-pdf.acsm?id=abnIAgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          "acsTokenLink": "http://books.google.com.eg/books/download/The_Assassin_s_Blade-sample-pdf.acsm?id=xLacAgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
         },
-        "webReaderLink": "http://play.google.com/books/reader?id=abnIAgAAQBAJ&hl=&source=gbs_api",
+        "webReaderLink": "http://play.google.com/books/reader?id=xLacAgAAQBAJ&hl=&source=gbs_api",
         "accessViewStatus": "SAMPLE",
         "quoteSharingAllowed": false
-      },
-      "searchInfo": {
-        "textSnippet": "Applications: This is the fun part where you put your newly developed programming skills to work in practical ways."
       }
     },
     {
       "kind": "books#volume",
-      "id": "tjOlkl7ecVQC",
-      "etag": "5eoAMTJV6Ls",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/tjOlkl7ecVQC",
+      "id": "KLuiEAAAQBAJ",
+      "etag": "uqMCSDZeBlI",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/KLuiEAAAQBAJ",
       "volumeInfo": {
-        "title": "Elements of Programming",
+        "title": "A Curse for True Love",
         "authors": [
-          "Alexander A. Stepanov",
-          "Paul McJones"
+          "Stephanie Garber"
         ],
-        "publisher": "Addison-Wesley Professional",
-        "publishedDate": "2009",
-        "description": "A truly foundational book on the discipline of generic programming reveals how to write better software by mastering the development of abstract components. The authors show programmers how to use mathematics to compose reliable algorithms from components, and to design effective interfaces between algorithms and data structures.",
+        "publishedDate": "2023-09-12",
+        "description": "Two villains, one girl, and a deadly battle for happily ever after. Evangeline Fox ventured to the Magnificent North in search of her happy ending, and it seems as if she has it. She's married to a handsome prince and lives in a legendary castle. But Evangeline has no idea of the devastating price she's paid for this fairytale. She doesn't know what she has lost, and her husband is determined to make sure she never finds out . . . but first he must kill Jacks, the Prince of Hearts. Blood will be shed, hearts will be stolen, and true love will be put to the test in A Curse for True Love, the breathlessly anticipated conclusion to the Once Upon A Broken Heart trilogy.",
         "industryIdentifiers": [
           {
             "type": "ISBN_13",
-            "identifier": "9780321635372"
+            "identifier": "9781250851208"
           },
           {
             "type": "ISBN_10",
-            "identifier": "032163537X"
+            "identifier": "1250851203"
           }
         ],
         "readingModes": {
-          "text": false,
-          "image": true
+          "text": true,
+          "image": false
         },
-        "pageCount": 279,
+        "pageCount": 0,
         "printType": "BOOK",
         "categories": [
-          "Algorithms"
+          "Young Adult Fiction"
         ],
         "maturityRating": "NOT_MATURE",
         "allowAnonLogging": false,
-        "contentVersion": "0.1.0.0.preview.1",
+        "contentVersion": "preview-1.0.0",
         "panelizationSummary": {
           "containsEpubBubbles": false,
           "containsImageBubbles": false
         },
         "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=tjOlkl7ecVQC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=tjOlkl7ecVQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "smallThumbnail": "http://books.google.com/books/content?id=KLuiEAAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=KLuiEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
         },
         "language": "en",
-        "previewLink": "http://books.google.com.eg/books?id=tjOlkl7ecVQC&printsec=frontcover&dq=programing&hl=&cd=6&source=gbs_api",
-        "infoLink": "http://books.google.com.eg/books?id=tjOlkl7ecVQC&dq=programing&hl=&source=gbs_api",
-        "canonicalVolumeLink": "https://books.google.com/books/about/Elements_of_Programming.html?hl=&id=tjOlkl7ecVQC"
+        "previewLink": "http://books.google.com.eg/books?id=KLuiEAAAQBAJ&dq=subject:Fantasy&hl=&cd=8&source=gbs_api",
+        "infoLink": "http://books.google.com.eg/books?id=KLuiEAAAQBAJ&dq=subject:Fantasy&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/A_Curse_for_True_Love.html?hl=&id=KLuiEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "EG",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "EG",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=KLuiEAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "6hzSk8MupCYC",
+      "etag": "w/tZPikbVLM",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/6hzSk8MupCYC",
+      "volumeInfo": {
+        "title": "The Farthest Shore",
+        "authors": [
+          "Ursula K. Le Guin"
+        ],
+        "publisher": "Simon and Schuster",
+        "publishedDate": "1972",
+        "description": "The second book in LeGuin's fantasy series finds a mature Sparrowhawk sailing on a journey to find the cause of the evil disturbances in the world of Earthsea. Winner of the National Book Award. Copyright © Libri GmbH. All rights reserved.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780689316838"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0689316836"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 248,
+        "printType": "BOOK",
+        "categories": [
+          "Juvenile Fiction"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.4.2.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=6hzSk8MupCYC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=6hzSk8MupCYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.eg/books?id=6hzSk8MupCYC&printsec=frontcover&dq=subject:Fantasy&hl=&cd=9&source=gbs_api",
+        "infoLink": "http://books.google.com.eg/books?id=6hzSk8MupCYC&dq=subject:Fantasy&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_Farthest_Shore.html?hl=&id=6hzSk8MupCYC"
       },
       "saleInfo": {
         "country": "EG",
@@ -474,290 +636,60 @@
         "pdf": {
           "isAvailable": false
         },
-        "webReaderLink": "http://play.google.com/books/reader?id=tjOlkl7ecVQC&hl=&source=gbs_api",
+        "webReaderLink": "http://play.google.com/books/reader?id=6hzSk8MupCYC&hl=&source=gbs_api",
         "accessViewStatus": "SAMPLE",
         "quoteSharingAllowed": false
-      },
-      "searchInfo": {
-        "textSnippet": "A truly foundational book on the discipline of generic programming reveals how to write better software by mastering the development of abstract components."
       }
     },
     {
       "kind": "books#volume",
-      "id": "gLVKDAAAQBAJ",
-      "etag": "HCe5onw6wBI",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/gLVKDAAAQBAJ",
+      "id": "Hnb-93B3OGAC",
+      "etag": "GirL9ds9PPw",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/Hnb-93B3OGAC",
       "volumeInfo": {
-        "title": "Coding For Dummies",
+        "title": "Bridge to Terabithia",
         "authors": [
-          "Nikhil Abraham"
+          "Katherine Paterson"
         ],
-        "publisher": "John Wiley & Sons",
-        "publishedDate": "2016-06-13",
-        "description": "Coding For Dummies, (9781119293323) was previously published as Coding For Dummies, (9781118951309). While this version features a new Dummies cover and design, the content is the same as the prior release and should not be considered a new or updated product. Hands-on exercises help you learn to code like a pro No coding experience is required for Coding For Dummies, your one-stop guide to building a foundation of knowledge in writing computer code for web, application, and software development. It doesn't matter if you've dabbled in coding or never written a line of code, this book guides you through the basics. Using foundational web development languages like HTML, CSS, and JavaScript, it explains in plain English how coding works and why it's needed. Online exercises developed by Codecademy, a leading online code training site, help hone coding skills and demonstrate results as you practice. The site provides an environment where you can try out tutorials built into the text and see the actual output from your coding. You'll also gain access to end-of-chapter challenges to apply newly acquired skills to a less-defined assignment. So what are you waiting for? The current demand for workers with coding and computer science skills far exceeds the supply Teaches the foundations of web development languages in an easy-to-understand format Offers unprecedented opportunities to practice basic coding languages Readers can access online hands-on exercises and end-of-chapter assessments that develop and test their new-found skills If you're a student looking for an introduction to the basic concepts of coding or a professional looking to add new skills, Coding For Dummies has you covered.",
-        "industryIdentifiers": [
-          {
-            "type": "ISBN_13",
-            "identifier": "9781119293323"
-          },
-          {
-            "type": "ISBN_10",
-            "identifier": "1119293324"
-          }
-        ],
-        "readingModes": {
-          "text": false,
-          "image": true
-        },
-        "pageCount": 294,
-        "printType": "BOOK",
-        "categories": [
-          "Computers"
-        ],
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": false,
-        "contentVersion": "1.9.5.0.preview.1",
-        "panelizationSummary": {
-          "containsEpubBubbles": false,
-          "containsImageBubbles": false
-        },
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=gLVKDAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=gLVKDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-        },
-        "language": "en",
-        "previewLink": "http://books.google.com.eg/books?id=gLVKDAAAQBAJ&printsec=frontcover&dq=programing&hl=&cd=7&source=gbs_api",
-        "infoLink": "http://books.google.com.eg/books?id=gLVKDAAAQBAJ&dq=programing&hl=&source=gbs_api",
-        "canonicalVolumeLink": "https://books.google.com/books/about/Coding_For_Dummies.html?hl=&id=gLVKDAAAQBAJ"
-      },
-      "saleInfo": {
-        "country": "EG",
-        "saleability": "NOT_FOR_SALE",
-        "isEbook": false
-      },
-      "accessInfo": {
-        "country": "EG",
-        "viewability": "PARTIAL",
-        "embeddable": true,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": false
-        },
-        "pdf": {
-          "isAvailable": true,
-          "acsTokenLink": "http://books.google.com.eg/books/download/Coding_For_Dummies-sample-pdf.acsm?id=gLVKDAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=gLVKDAAAQBAJ&hl=&source=gbs_api",
-        "accessViewStatus": "SAMPLE",
-        "quoteSharingAllowed": false
-      },
-      "searchInfo": {
-        "textSnippet": "It doesn&#39;t matter if you&#39;ve dabbled in coding or never written a line of code, this book guides you through the basics."
-      }
-    },
-    {
-      "kind": "books#volume",
-      "id": "QFrlBwAAQBAJ",
-      "etag": "c6/J0dc9L/Q",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/QFrlBwAAQBAJ",
-      "volumeInfo": {
-        "title": "The Science of Programming",
-        "authors": [
-          "David Gries"
-        ],
-        "publisher": "Springer Science & Business Media",
-        "publishedDate": "2012-12-06",
-        "description": "Describes basic programming principles and their step-by- step applications.Numerous examples are included.",
-        "industryIdentifiers": [
-          {
-            "type": "ISBN_13",
-            "identifier": "9781461259831"
-          },
-          {
-            "type": "ISBN_10",
-            "identifier": "1461259835"
-          }
-        ],
-        "readingModes": {
-          "text": false,
-          "image": true
-        },
-        "pageCount": 381,
-        "printType": "BOOK",
-        "categories": [
-          "Computers"
-        ],
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": false,
-        "contentVersion": "0.1.0.0.preview.1",
-        "panelizationSummary": {
-          "containsEpubBubbles": false,
-          "containsImageBubbles": false
-        },
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=QFrlBwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=QFrlBwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-        },
-        "language": "en",
-        "previewLink": "http://books.google.com.eg/books?id=QFrlBwAAQBAJ&printsec=frontcover&dq=programing&hl=&cd=8&source=gbs_api",
-        "infoLink": "https://play.google.com/store/books/details?id=QFrlBwAAQBAJ&source=gbs_api",
-        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=QFrlBwAAQBAJ"
-      },
-      "saleInfo": {
-        "country": "EG",
-        "saleability": "FOR_SALE",
-        "isEbook": true,
-        "listPrice": {
-          "amount": 3277.05,
-          "currencyCode": "EGP"
-        },
-        "retailPrice": {
-          "amount": 3277.05,
-          "currencyCode": "EGP"
-        },
-        "buyLink": "https://play.google.com/store/books/details?id=QFrlBwAAQBAJ&rdid=book-QFrlBwAAQBAJ&rdot=1&source=gbs_api",
-        "offers": [
-          {
-            "finskyOfferType": 1,
-            "listPrice": {
-              "amountInMicros": 3277050000,
-              "currencyCode": "EGP"
-            },
-            "retailPrice": {
-              "amountInMicros": 3277050000,
-              "currencyCode": "EGP"
-            }
-          }
-        ]
-      },
-      "accessInfo": {
-        "country": "EG",
-        "viewability": "PARTIAL",
-        "embeddable": true,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": false
-        },
-        "pdf": {
-          "isAvailable": true,
-          "acsTokenLink": "http://books.google.com.eg/books/download/The_Science_of_Programming-sample-pdf.acsm?id=QFrlBwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=QFrlBwAAQBAJ&hl=&source=gbs_api",
-        "accessViewStatus": "SAMPLE",
-        "quoteSharingAllowed": false
-      },
-      "searchInfo": {
-        "textSnippet": "Describes basic programming principles and their step-by- step applications.Numerous examples are included."
-      }
-    },
-    {
-      "kind": "books#volume",
-      "id": "s-fJvVOZu0QC",
-      "etag": "dPiX0oV5Y+s",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/s-fJvVOZu0QC",
-      "volumeInfo": {
-        "title": "Goal Programing",
-        "subtitle": "A New Tool for the Christmas Tree Industry",
-        "authors": [
-          "Bruce G. Hansen"
-        ],
+        "publisher": "Hippo Books",
         "publishedDate": "1977",
+        "description": "The life of a ten-year-old boy in rural Virginia expands when he becomes friends with a newcomer who subsequently meets an untimely death trying to reach their hideaway, Terabithia, during a storm.",
         "industryIdentifiers": [
           {
-            "type": "OTHER",
-            "identifier": "UIUC:30112104056442"
+            "type": "ISBN_10",
+            "identifier": "0590132008"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780590132008"
           }
         ],
         "readingModes": {
           "text": false,
-          "image": true
+          "image": false
         },
-        "pageCount": 8,
+        "pageCount": 142,
         "printType": "BOOK",
         "categories": [
-          "Christmas trees"
+          "Juvenile Fiction"
         ],
+        "averageRating": 5,
+        "ratingsCount": 4,
         "maturityRating": "NOT_MATURE",
         "allowAnonLogging": false,
-        "contentVersion": "0.2.3.0.full.1",
+        "contentVersion": "4.3.2.0.preview.0",
         "panelizationSummary": {
           "containsEpubBubbles": false,
           "containsImageBubbles": false
         },
         "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=s-fJvVOZu0QC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=s-fJvVOZu0QC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "smallThumbnail": "http://books.google.com/books/content?id=Hnb-93B3OGAC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=Hnb-93B3OGAC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
         },
         "language": "en",
-        "previewLink": "http://books.google.com.eg/books?id=s-fJvVOZu0QC&pg=PT1&dq=programing&hl=&cd=9&source=gbs_api",
-        "infoLink": "https://play.google.com/store/books/details?id=s-fJvVOZu0QC&source=gbs_api",
-        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=s-fJvVOZu0QC"
-      },
-      "saleInfo": {
-        "country": "EG",
-        "saleability": "FREE",
-        "isEbook": true,
-        "buyLink": "https://play.google.com/store/books/details?id=s-fJvVOZu0QC&rdid=book-s-fJvVOZu0QC&rdot=1&source=gbs_api"
-      },
-      "accessInfo": {
-        "country": "EG",
-        "viewability": "ALL_PAGES",
-        "embeddable": true,
-        "publicDomain": true,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": false
-        },
-        "pdf": {
-          "isAvailable": false
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=s-fJvVOZu0QC&hl=&source=gbs_api",
-        "accessViewStatus": "FULL_PUBLIC_DOMAIN",
-        "quoteSharingAllowed": false
-      },
-      "searchInfo": {
-        "textSnippet": "... <b>programing</b> 892.51--015 Keywords : Christmas trees : goal <b>programing</b> 892.51--015 Hansen , Bruce G. 1977. Goal <b>programing</b> : A new tool for the Christmas tree industry . Northeast Forest Exp . Stn . Upper Darby , Pa . 4 p . ( U.S. Dep . of&nbsp;..."
-      }
-    },
-    {
-      "kind": "books#volume",
-      "id": "jiZwDwAAQBAJ",
-      "etag": "Xl8tI7+pXW8",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/jiZwDwAAQBAJ",
-      "volumeInfo": {
-        "title": "Eyes Wide Open: The Illuminati Tigress-Programing, -Training and -Using Angelina Jolie (Second Edition)",
-        "authors": [
-          "Istvan Adorjan"
-        ],
-        "publisher": "Istvan Adorjan",
-        "publishedDate": "2018-09-24",
-        "description": "p { margin-bottom: 0.25cm; line-height: 120%; } p { margin-bottom: 0.25cm; line-height: 120%; } Corroborated mainly with cinematographic evidences, this book expounds a theory, according to which the American national secret political organization named “Illuminati” used the film art of the American actress Angelina Jolie for her tigress-programing and training for national secret political purposes.",
-        "readingModes": {
-          "text": false,
-          "image": true
-        },
-        "pageCount": 613,
-        "printType": "BOOK",
-        "categories": [
-          "Social Science"
-        ],
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": true,
-        "contentVersion": "0.2.1.0.preview.1",
-        "panelizationSummary": {
-          "containsEpubBubbles": false,
-          "containsImageBubbles": false
-        },
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=jiZwDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=jiZwDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-        },
-        "language": "en",
-        "previewLink": "http://books.google.com.eg/books?id=jiZwDwAAQBAJ&pg=PA10&dq=programing&hl=&cd=10&source=gbs_api",
-        "infoLink": "http://books.google.com.eg/books?id=jiZwDwAAQBAJ&dq=programing&hl=&source=gbs_api",
-        "canonicalVolumeLink": "https://books.google.com/books/about/Eyes_Wide_Open_The_Illuminati_Tigress_Pr.html?hl=&id=jiZwDwAAQBAJ"
+        "previewLink": "http://books.google.com.eg/books?id=Hnb-93B3OGAC&dq=subject:Fantasy&hl=&cd=10&source=gbs_api",
+        "infoLink": "http://books.google.com.eg/books?id=Hnb-93B3OGAC&dq=subject:Fantasy&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Bridge_to_Terabithia.html?hl=&id=Hnb-93B3OGAC"
       },
       "saleInfo": {
         "country": "EG",
@@ -766,22 +698,19 @@
       },
       "accessInfo": {
         "country": "EG",
-        "viewability": "PARTIAL",
-        "embeddable": true,
+        "viewability": "NO_PAGES",
+        "embeddable": false,
         "publicDomain": false,
         "textToSpeechPermission": "ALLOWED",
         "epub": {
           "isAvailable": false
         },
         "pdf": {
-          "isAvailable": true
+          "isAvailable": false
         },
-        "webReaderLink": "http://play.google.com/books/reader?id=jiZwDwAAQBAJ&hl=&source=gbs_api",
-        "accessViewStatus": "SAMPLE",
+        "webReaderLink": "http://play.google.com/books/reader?id=Hnb-93B3OGAC&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
         "quoteSharingAllowed": false
-      },
-      "searchInfo": {
-        "textSnippet": "... <b>programing</b> and -training of Angelina Jolie with sexual abuse ....................................... 33 2.1. The tigress-<b>programing</b> and -training of Angelina Jolie with childhood sexual abuse ................... 33 2.1.1. A psychiatric&nbsp;..."
       }
     }
   ]

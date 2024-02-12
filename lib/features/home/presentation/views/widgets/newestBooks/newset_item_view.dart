@@ -1,6 +1,6 @@
 import 'package:bookly_app/core/utils/app_router.dart';
-import 'package:bookly_app/core/utils/assets.dart';
 import 'package:bookly_app/core/utils/styles.dart';
+import 'package:bookly_app/features/home/data/model/books_model/books_model.dart';
 import 'package:bookly_app/features/home/presentation/views/widgets/book_rating_view.dart';
 import 'package:bookly_app/features/home/presentation/views/widgets/books/book_item_view.dart';
 import 'package:flutter/material.dart';
@@ -10,20 +10,25 @@ import 'package:google_fonts/google_fonts.dart';
 class NewestItemBuilder extends StatelessWidget {
   const NewestItemBuilder({
     super.key,
+    required this.booksModel,
   });
+
+  final BooksModel booksModel;
 
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
+        print(booksModel.volumeInfo.averageRating);
+        print(booksModel.volumeInfo.ratingsCount);
         GoRouter.of(context).push(AppRouter.kBookDetailsView);
       },
       child: SizedBox(
         height: 125,
         child: Row(
           children: [
-            const BookItemBuilder(
-              thumbnailUrl: Assets.imagesTestImage,
+            BookItemBuilder(
+              thumbnailUrl: booksModel.volumeInfo!.imageLinks.thumbnail,
             ),
             const SizedBox(
               width: 20,
@@ -35,15 +40,15 @@ class NewestItemBuilder extends StatelessWidget {
                 children: [
                   SizedBox(
                     width: MediaQuery.of(context).size.width * .7,
-                    child: const Text(
-                      'Harry Potter and the Goblet of Fire',
+                    child: Text(
+                      booksModel.volumeInfo!.title!,
                       maxLines: 2,
                       overflow: TextOverflow.ellipsis,
                       style: TextStyles.textStyle20,
                     ),
                   ),
                   Text(
-                    'J.K. Rowling',
+                    booksModel.volumeInfo!.authors![0],
                     maxLines: 1,
                     overflow: TextOverflow.ellipsis,
                     style: TextStyles.textStyle14.copyWith(
@@ -54,7 +59,7 @@ class NewestItemBuilder extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Text(
-                        '19.99 €',
+                        'Free',
                         maxLines: 1,
                         overflow: TextOverflow.ellipsis,
                         style: TextStyles.textStyle20.copyWith(
@@ -63,7 +68,10 @@ class NewestItemBuilder extends StatelessWidget {
                           ).fontFamily,
                         ),
                       ),
-                      const BookRating(),
+                      BookRating(
+                        ratingsCount: booksModel.volumeInfo.ratingsCount ?? 0,
+                        averageRating: booksModel.volumeInfo.averageRating ?? 0,
+                      ),
                     ],
                   ),
                 ],
