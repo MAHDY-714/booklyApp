@@ -12,10 +12,10 @@ class HomeRepoImplement implements HomeRepo {
 
   HomeRepoImplement(this.apiService);
   @override
-  Future<Either<Failures, List<BooksModel>>> fetchBestSellerBooks() async {
+  Future<Either<Failures, List<BooksModel>>> fetchNewestBooks() async {
     try {
       var data = await apiService.get(
-        endPoint: 'volumes?q=subject:Fantasy&projection=full&orderBy=newest',
+        endPoint: 'volumes?q=subject:Fantasy&projection=full&Sorting=newest',
       );
       //  List<BooksModel> books = [];
       // books.add(BooksModel.fromJson(data));

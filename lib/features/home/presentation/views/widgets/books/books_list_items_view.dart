@@ -21,7 +21,7 @@ class BookListViewItemsBuilder extends StatelessWidget {
                 padding: const EdgeInsetsDirectional.symmetric(horizontal: 10),
                 child: BookItemBuilder(
                   thumbnailUrl:
-                      state.books[index].volumeInfo!.imageLinks.thumbnail,
+                      state.books[index].volumeInfo.imageLinks.thumbnail,
                 ),
               );
             },

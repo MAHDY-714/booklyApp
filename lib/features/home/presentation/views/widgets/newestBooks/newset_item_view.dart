@@ -28,7 +28,7 @@ class NewestItemBuilder extends StatelessWidget {
         child: Row(
           children: [
             BookItemBuilder(
-              thumbnailUrl: booksModel.volumeInfo!.imageLinks.thumbnail,
+              thumbnailUrl: booksModel.volumeInfo.imageLinks.thumbnail,
             ),
             const SizedBox(
               width: 20,
@@ -41,14 +41,14 @@ class NewestItemBuilder extends StatelessWidget {
                   SizedBox(
                     width: MediaQuery.of(context).size.width * .7,
                     child: Text(
-                      booksModel.volumeInfo!.title!,
+                      booksModel.volumeInfo.title!,
                       maxLines: 2,
                       overflow: TextOverflow.ellipsis,
                       style: TextStyles.textStyle20,
                     ),
                   ),
                   Text(
-                    booksModel.volumeInfo!.authors![0],
+                    booksModel.volumeInfo.authors![0],
                     maxLines: 1,
                     overflow: TextOverflow.ellipsis,
                     style: TextStyles.textStyle14.copyWith(

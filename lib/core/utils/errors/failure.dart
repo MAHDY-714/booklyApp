@@ -37,6 +37,8 @@ class ServerFailure extends Failures {
     }
   }
 
+  ///SocketExceptions
+
   factory ServerFailure.formBadResponse(int? statusCode, dynamic response) {
     if (statusCode == 400 || statusCode == 401 || statusCode == 403) {
       return ServerFailure(response['error']['message']);
