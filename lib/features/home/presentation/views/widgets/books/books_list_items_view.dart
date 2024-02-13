@@ -1,3 +1,4 @@
+import 'package:bookly_app/core/utils/assets.dart';
 import 'package:bookly_app/core/utils/widget/error_text_widget.dart';
 import 'package:bookly_app/core/utils/widget/loading_indecator._widget.dart';
 import 'package:bookly_app/features/home/presentation/manager/books_cubit/books_cubit.dart';
@@ -21,7 +22,8 @@ class BookListViewItemsBuilder extends StatelessWidget {
                 padding: const EdgeInsetsDirectional.symmetric(horizontal: 10),
                 child: BookItemBuilder(
                   thumbnailUrl:
-                      state.books[index].volumeInfo.imageLinks.thumbnail,
+                      state.books[index].volumeInfo.imageLinks?.thumbnail ??
+                          Assets.imagesTestImage,
                 ),
               );
             },

@@ -6,5 +6,5 @@ class Assets {
   static const String imagesLogoText = 'assets/images/LogoText.png';
   static const String imagesSearchBook = 'assets/images/SearchBook.png';
   static const String imagesTestImage =
-      'https://i0.wp.com/www.wrbh.org/wp-content/uploads/2017/08/Harry-Potter-Goblet-of-Fire.jpg?ssl=1';
+      'https://img.freepik.com/free-vector/red-text-book-closed-icon_18591-82397.jpg?t=st=1707730333~exp=1707730933~hmac=8b92bad7bc1679df532b44d7b3c9394aa4307daa64118363e09dc26a310ae3ca';
 }

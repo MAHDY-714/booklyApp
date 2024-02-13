@@ -1,4 +1,5 @@
 import 'package:bookly_app/core/utils/constants.dart';
+import 'package:bookly_app/features/home/data/model/books_model/books_model.dart';
 import 'package:bookly_app/features/home/presentation/views/widgets/bookDetails/book_details_section.dart';
 import 'package:bookly_app/features/home/presentation/views/widgets/bookDetails/books_actions.dart';
 import 'package:bookly_app/features/home/presentation/views/widgets/bookDetails/similarBooks/similar_books_section.dart';
@@ -6,6 +7,7 @@ import 'package:flutter/material.dart';
 
 class BookDetailsBodyView extends StatelessWidget {
   const BookDetailsBodyView({super.key});
+  // final BooksModel booksModel;
 
   @override
   Widget build(BuildContext context) {
