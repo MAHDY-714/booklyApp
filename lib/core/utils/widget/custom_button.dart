@@ -1,6 +1,3 @@
-import 'dart:developer';
-
-import 'package:bookly_app/core/utils/constants.dart';
 import 'package:bookly_app/core/utils/styles.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -14,6 +11,7 @@ class CustomButton extends StatelessWidget {
     required this.text,
     this.textSize,
     this.fontWeight,
+    this.onPressed,
   });
 
   final BorderRadiusDirectional? borderRadius;
@@ -22,6 +20,7 @@ class CustomButton extends StatelessWidget {
   final String text;
   final double? textSize;
   final FontWeight? fontWeight;
+  final void Function()? onPressed;
 
   @override
   Widget build(BuildContext context) {
@@ -34,10 +33,7 @@ class CustomButton extends StatelessWidget {
             borderRadius: borderRadius ?? BorderRadius.circular(12),
           ),
         ),
-        onPressed: () {
-          log(width(context).toString());
-          log(height(context).toString());
-        },
+        onPressed: onPressed,
         child: Text(
           text,
           maxLines: 1,

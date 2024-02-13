@@ -30,7 +30,9 @@ class BookDetailsBodyView extends StatelessWidget {
                   Padding(
                     padding:
                         EdgeInsets.symmetric(horizontal: width(context) * .06),
-                    child: const BooksActions(),
+                    child: BooksActions(
+                      booksModel: booksModel,
+                    ),
                   ),
                 ],
               ),
