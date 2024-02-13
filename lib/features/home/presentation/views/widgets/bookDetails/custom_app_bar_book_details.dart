@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 
 class CustomAppBarBookDetails extends StatelessWidget {
   const CustomAppBarBookDetails({
@@ -7,13 +8,19 @@ class CustomAppBarBookDetails extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Padding(
-      padding: EdgeInsetsDirectional.symmetric(horizontal: 20, vertical: 10),
+    return Padding(
+      padding:
+          const EdgeInsetsDirectional.symmetric(horizontal: 20, vertical: 10),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          Icon(Icons.close),
-          Icon(Icons.shopping_cart_outlined),
+          GestureDetector(
+            onTap: () {
+              GoRouter.of(context).pop();
+            },
+            child: const Icon(Icons.close),
+          ),
+          const Icon(Icons.shopping_cart_outlined),
         ],
       ),
     );

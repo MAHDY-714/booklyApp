@@ -6,8 +6,8 @@ import 'package:bookly_app/features/home/presentation/views/widgets/bookDetails/
 import 'package:flutter/material.dart';
 
 class BookDetailsBodyView extends StatelessWidget {
-  const BookDetailsBodyView({super.key});
-  // final BooksModel booksModel;
+  const BookDetailsBodyView({super.key, required this.booksModel});
+  final BooksModel booksModel;
 
   @override
   Widget build(BuildContext context) {
@@ -21,7 +21,9 @@ class BookDetailsBodyView extends StatelessWidget {
             SliverToBoxAdapter(
               child: Column(
                 children: [
-                  const BookDetailsSection(),
+                  BookDetailsSection(
+                    booksModel: booksModel,
+                  ),
                   const SizedBox(
                     height: 40,
                   ),

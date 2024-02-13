@@ -1,6 +1,7 @@
 import 'package:bookly_app/core/utils/assets.dart';
 import 'package:bookly_app/core/utils/constants.dart';
 import 'package:bookly_app/core/utils/styles.dart';
+import 'package:bookly_app/features/home/data/model/books_model/books_model.dart';
 import 'package:bookly_app/features/home/presentation/views/widgets/bookDetails/custom_app_bar_book_details.dart';
 import 'package:bookly_app/features/home/presentation/views/widgets/book_rating_view.dart';
 import 'package:bookly_app/features/home/presentation/views/widgets/books/book_item_view.dart';
@@ -10,7 +11,9 @@ import 'package:google_fonts/google_fonts.dart';
 class BookDetailsSection extends StatelessWidget {
   const BookDetailsSection({
     super.key,
+    required this.booksModel,
   });
+  final BooksModel booksModel;
 
   @override
   Widget build(BuildContext context) {
@@ -20,13 +23,14 @@ class BookDetailsSection extends StatelessWidget {
         Padding(
           padding:
               EdgeInsetsDirectional.symmetric(horizontal: width(context) * .26),
-          child: const BookItemBuilder(
-            thumbnailUrl: Assets.imagesTestImage,
+          child: BookItemBuilder(
+            thumbnailUrl: booksModel.volumeInfo.imageLinks?.thumbnail ??
+                Assets.imagesTestImage,
           ),
         ),
         const SizedBox(height: 40),
-        const Text(
-          'Harry Potter and the Goblet of Fire',
+        Text(
+          booksModel.volumeInfo.title!,
           // 'The Jungle Book',
           maxLines: 2,
           overflow: TextOverflow.ellipsis,
@@ -37,7 +41,7 @@ class BookDetailsSection extends StatelessWidget {
         Opacity(
           opacity: .7,
           child: Text(
-            'J.K. Rowling',
+            booksModel.volumeInfo.authors?[0] ?? 'unKnown',
             maxLines: 2,
             overflow: TextOverflow.ellipsis,
             textAlign: TextAlign.center,
@@ -50,10 +54,10 @@ class BookDetailsSection extends StatelessWidget {
           ),
         ),
         const SizedBox(height: 15),
-        const BookRating(
+        BookRating(
           mainAxisAlignment: MainAxisAlignment.center,
-          ratingsCount: 0,
-          averageRating: 0,
+          ratingsCount: booksModel.volumeInfo.ratingsCount ?? 0,
+          averageRating: booksModel.volumeInfo.averageRating ?? 0,
         ),
       ],
     );

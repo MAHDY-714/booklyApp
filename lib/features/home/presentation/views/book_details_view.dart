@@ -26,8 +26,8 @@ class _BookDetailsViewState extends State<BookDetailsView> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: BookDetailsBodyView(
-          // booksModel: widget.booksModel,
-          ),
+        booksModel: widget.booksModel,
+      ),
     );
   }
 }
