@@ -10,38 +10,42 @@ class HomeViewBody extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return CustomScrollView(
-      physics: const BouncingScrollPhysics(),
-      slivers: [
-        SliverToBoxAdapter(
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              const CustomAppBar(),
-              const BookListViewItemsBuilder(),
-              Padding(
-                padding: const EdgeInsetsDirectional.only(
-                  start: 10.0,
-                  end: 10.0,
-                  top: 20,
-                  bottom: 10,
-                ),
-                child: Text(
-                  'Books',
-                  style: TextStyles.textStyle24.copyWith(
-                    fontFamily: GoogleFonts.montserrat(
-                      fontWeight: FontWeight.w600,
-                    ).fontFamily,
+    return PopScope(
+      canPop: false,
+      // onPopInvoked: (didPop) async {},
+      child: CustomScrollView(
+        physics: const BouncingScrollPhysics(),
+        slivers: [
+          SliverToBoxAdapter(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                const CustomAppBar(),
+                const BookListViewItemsBuilder(),
+                Padding(
+                  padding: const EdgeInsetsDirectional.only(
+                    start: 10.0,
+                    end: 10.0,
+                    top: 20,
+                    bottom: 10,
+                  ),
+                  child: Text(
+                    'Books',
+                    style: TextStyles.textStyle24.copyWith(
+                      fontFamily: GoogleFonts.montserrat(
+                        fontWeight: FontWeight.w600,
+                      ).fontFamily,
+                    ),
                   ),
                 ),
-              ),
-            ],
+              ],
+            ),
           ),
-        ),
-        const SliverToBoxAdapter(
-          child: NewestListViewItemsBuilder(),
-        ),
-      ],
+          const SliverToBoxAdapter(
+            child: NewestListViewItemsBuilder(),
+          ),
+        ],
+      ),
     );
   }
 }
