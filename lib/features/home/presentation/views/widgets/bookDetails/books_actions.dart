@@ -23,7 +23,7 @@ class BooksActions extends StatelessWidget {
         Expanded(
           child: CustomButton(
             onPressed: () async {
-              customLaunchUrl(context, 'booksModel.volumeInfo.previewLink!');
+              customLaunchUrl(context, booksModel.volumeInfo.previewLink!);
             },
             borderRadius: const BorderRadiusDirectional.only(
               topEnd: Radius.circular(12),

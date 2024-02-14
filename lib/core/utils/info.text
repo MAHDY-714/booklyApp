@@ -1,0 +1,13 @@
+q = inauthor
+https://www.googleapis.com/books/v1/volumes?sorting=relevance&q=inauthor:nameAuthor&projection=full& 
+
+q = intitle
+https://www.googleapis.com/books/v1/volumes?sorting=relevance&q=intitle:nameBook&projection=full& 
+
+q = inpublisher
+https://www.googleapis.com/books/v1/volumes?sorting=relevance&q=inpublisher:namePublisher&projection=full& 
+
+q = subject
+https://www.googleapis.com/books/v1/volumes?sorting=relevance&q=subject:nameSubject&projection=full& 
+
+
