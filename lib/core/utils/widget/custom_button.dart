@@ -7,6 +7,7 @@ class CustomButton extends StatelessWidget {
     super.key,
     this.borderRadius,
     this.backgroundColor,
+    this.borderColor,
     required this.textColor,
     required this.text,
     this.textSize,
@@ -16,6 +17,7 @@ class CustomButton extends StatelessWidget {
 
   final BorderRadiusDirectional? borderRadius;
   final Color? backgroundColor;
+  final Color? borderColor;
   final Color? textColor;
   final String text;
   final double? textSize;
@@ -31,6 +33,10 @@ class CustomButton extends StatelessWidget {
           backgroundColor: backgroundColor ?? Colors.white,
           shape: RoundedRectangleBorder(
             borderRadius: borderRadius ?? BorderRadius.circular(12),
+            side: BorderSide(
+              color: borderColor != null ? Colors.white : Colors.transparent,
+              width: .01,
+            ),
           ),
         ),
         onPressed: onPressed,

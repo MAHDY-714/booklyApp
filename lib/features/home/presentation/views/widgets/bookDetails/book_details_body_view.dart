@@ -29,7 +29,7 @@ class BookDetailsBodyView extends StatelessWidget {
                   ),
                   Padding(
                     padding:
-                        EdgeInsets.symmetric(horizontal: width(context) * .06),
+                        EdgeInsets.symmetric(horizontal: kWidth(context) * .06),
                     child: BooksActions(
                       booksModel: booksModel,
                     ),

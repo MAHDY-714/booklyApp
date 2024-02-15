@@ -1,4 +1,5 @@
 import 'package:bookly_app/core/utils/assets.dart';
+import 'package:bookly_app/core/utils/constants.dart';
 import 'package:bookly_app/core/utils/styles.dart';
 import 'package:flutter/material.dart';
 
@@ -28,7 +29,7 @@ class TextFieldSearchView extends StatelessWidget {
           ),
         ),
         filled: true,
-        fillColor: Colors.redAccent.withOpacity(.015),
+        fillColor: kSearchColor,
         hintText: 'Search Books',
         hintStyle: TextStyles.hintTextStyle,
         suffixIcon: IconButton(

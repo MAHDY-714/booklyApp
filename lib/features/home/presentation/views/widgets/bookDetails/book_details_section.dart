@@ -21,8 +21,8 @@ class BookDetailsSection extends StatelessWidget {
       children: [
         const CustomAppBarBookDetails(),
         Padding(
-          padding:
-              EdgeInsetsDirectional.symmetric(horizontal: width(context) * .26),
+          padding: EdgeInsetsDirectional.symmetric(
+              horizontal: kWidth(context) * .26),
           child: BookItemBuilder(
             thumbnailUrl: booksModel.volumeInfo.imageLinks?.thumbnail ??
                 Assets.imagesTestImage,

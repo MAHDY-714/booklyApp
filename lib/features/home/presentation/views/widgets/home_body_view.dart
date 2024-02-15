@@ -12,7 +12,6 @@ class HomeViewBody extends StatelessWidget {
   Widget build(BuildContext context) {
     return PopScope(
       canPop: false,
-      // onPopInvoked: (didPop) async {},
       child: CustomScrollView(
         physics: const BouncingScrollPhysics(),
         slivers: [

@@ -18,7 +18,7 @@ class SimilarBooksListItemsBuilder extends StatelessWidget {
         builder: (context, state) {
       if (state is SimilarBooksSuccess) {
         return SizedBox(
-          height: height(context) * .14,
+          height: kHeight(context) * .14,
           child: ListView.builder(
             itemBuilder: (context, index) {
               return Padding(

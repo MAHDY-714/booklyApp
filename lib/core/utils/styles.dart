@@ -45,4 +45,25 @@ abstract class TextStyles {
     color: Colors.white60,
     fontSize: 14,
   );
+
+  static const searchTitleBookTextStyle = TextStyle(
+    color: Colors.white,
+    fontSize: 12,
+    fontFamily: 'GTR',
+  );
+
+  static const searchAuthorBookTextStyle = TextStyle(
+    color: Color(0xE2E9E9E9),
+    fontSize: 12,
+  );
+
+  static const searchPublisherBookTextStyle = TextStyle(
+    color: Color(0xBDE9E9E9),
+    fontSize: 10,
+  );
+
+  static const searchSubjectBookTextStyle = TextStyle(
+    color: Color(0xBDE9E9E9),
+    fontSize: 10,
+  );
 }
