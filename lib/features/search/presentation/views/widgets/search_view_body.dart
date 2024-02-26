@@ -11,10 +11,13 @@ class SearchViewBody extends StatelessWidget {
     return const Padding(
       padding: EdgeInsetsDirectional.all(10),
       child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
+        crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           Padding(
-            padding: EdgeInsets.symmetric(horizontal: 5.0, vertical: 10),
+            padding: EdgeInsets.symmetric(
+              horizontal: 5.0,
+              vertical: 10,
+            ),
             child: TextFieldSearchView(),
           ),
           ToggleSearchRowView(),

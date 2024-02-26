@@ -1,6 +1,10 @@
+import 'dart:developer';
+
+import 'package:bookly_app/core/utils/constants.dart';
 import 'package:bookly_app/features/home/data/model/books_model/books_model.dart';
 import 'package:bookly_app/features/search/data/repos/search_repo.dart';
 import 'package:equatable/equatable.dart';
+import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 part 'search_books_state.dart';
@@ -8,17 +12,65 @@ part 'search_books_state.dart';
 class SearchBooksCubit extends Cubit<SearchBooksState> {
   SearchBooksCubit(this.searchRepo) : super(SearchBooksInitial());
   final SearchRepo searchRepo;
-
+  String? searchValue;
+  String? searchFailure;
+  String searchCategorie = 'inauthor';
+  int searchCategorieIndex = 0;
+  Color categoreColor = Colors.white24;
+  List<String> searchCategoriesList = ['inauthor', 'intitle', 'subject'];
+  List<BooksModel>? searchBooksList;
   Future<void> fetchSearchBooks({
     required String searchItem,
     required String searchCategories,
   }) async {
     emit(SearchBooksLoading());
     var resultSearch = await searchRepo.fetchSearchBooks(
-        searchItem: searchItem, searchCategories: searchCategories);
-    resultSearch.fold(
-      (failure) => emit(SearchBooksFailure(failure.errorMessage)),
-      (searchBooks) => emit(SearchBooksSuccess(searchBooks)),
+      q: searchCategories,
+      qValue: searchItem,
     );
+
+    resultSearch.fold((failure) {
+      searchFailure = failure.errorMessage;
+      return emit(SearchBooksFailure(failure.errorMessage));
+    }, (searchBooks) {
+      if (searchItem != '') {
+        searchBooksList = searchBooks;
+      }
+      log(searchItem);
+      log(searchCategorie);
+      searchValue = searchItem;
+      return emit(SearchBooksSuccess(searchBooks));
+    });
+  }
+
+  void searchCategoriesBooks(index, searchItem) {
+    log(index.toString());
+    searchCategorie = searchCategoriesList[index];
+    if (index == 0) {
+      searchCategorie = searchCategoriesList[index = 0];
+      log('inAuthor');
+    } else if (index == 1) {
+      searchCategorie = searchCategoriesList[index = 1];
+    } else if (index == 2) {
+      searchCategorie = searchCategoriesList[index = 2];
+    } else {
+      searchCategorie = searchCategoriesList[index = 0];
+    }
+    searchCategorieIndex = index;
+    log('the categore in searchCategoriesListBooks: ${searchCategoriesList[index]}');
+    log('the categore in searchCategoriesBooks: $searchCategorie');
+    if (searchItem != null) {
+      fetchSearchBooks(
+          searchItem: searchItem, searchCategories: searchCategorie);
+    }
+    emit(SearchCategoriesBooksState());
+  }
+
+  Color searchCategoreColorChange(index, categore) {
+    categoreColor = searchCategorie == searchCategoriesList[index]
+        ? kRedColor
+        : Colors.white24;
+    emit(SearchCategoriesColorBooksState());
+    return categoreColor;
   }
 }

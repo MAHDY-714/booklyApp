@@ -1,3 +1,4 @@
+import 'package:bookly_app/core/utils/constants.dart';
 import 'package:bookly_app/core/utils/styles.dart';
 import 'package:flutter/material.dart';
 
@@ -6,10 +7,18 @@ class ErrorTextWidget extends StatelessWidget {
   final String errorMessage;
   @override
   Widget build(BuildContext context) {
-    return Center(
+    return Expanded(
+      child: Center(
         child: Text(
-      errorMessage,
-      style: TextStyles.textStyle16,
-    ));
+          errorMessage,
+          maxLines: 2,
+          overflow: TextOverflow.ellipsis,
+          textAlign: TextAlign.center,
+          style: TextStyles.textStyle18.copyWith(
+            color: kRedColor,
+          ),
+        ),
+      ),
+    );
   }
 }

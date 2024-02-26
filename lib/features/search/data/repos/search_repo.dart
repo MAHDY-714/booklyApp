@@ -4,7 +4,7 @@ import 'package:dartz/dartz.dart';
 
 abstract class SearchRepo {
   Future<Either<Failures, List<BooksModel>>> fetchSearchBooks({
-    required String searchItem,
-    required String searchCategories,
+    required String qValue,
+    required String q,
   });
 }

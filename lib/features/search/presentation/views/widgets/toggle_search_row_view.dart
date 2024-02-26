@@ -1,48 +1,31 @@
-import 'package:bookly_app/core/utils/constants.dart';
-import 'package:bookly_app/core/utils/widget/custom_button.dart';
+import 'package:bookly_app/features/search/presentation/manager/cubit/search_books_cubit.dart';
+import 'package:bookly_app/features/search/presentation/views/widgets/toggle_search_item_view.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 
 class ToggleSearchRowView extends StatelessWidget {
   const ToggleSearchRowView({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 10.0),
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceAround,
-        children: [
-          CustomButton(
-            textColor: Colors.white,
-            text: 'Author',
-            backgroundColor: kSearchColor,
-            borderRadius: BorderRadiusDirectional.circular(16),
-            textSize: 16,
-            fontWeight: FontWeight.normal,
-            borderColor: Colors.white24,
-            onPressed: () {},
+    var searchCubit = BlocProvider.of<SearchBooksCubit>(context);
+    return SizedBox(
+      height: 50,
+      child: ListView.builder(
+        itemBuilder: (context, index) => Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 10.0),
+          child: ToggleSearchItemBuilder(
+            index: index,
+            onPressed: () {
+              searchCubit.searchCategoriesBooks(
+                index,
+                searchCubit.searchValue,
+              );
+            },
           ),
-          CustomButton(
-            textColor: Colors.white,
-            text: 'Title',
-            backgroundColor: kSearchColor,
-            borderRadius: BorderRadiusDirectional.circular(16),
-            textSize: 16,
-            fontWeight: FontWeight.normal,
-            borderColor: Colors.white24,
-            onPressed: () {},
-          ),
-          CustomButton(
-            textColor: Colors.white,
-            text: 'Subject',
-            backgroundColor: kSearchColor,
-            borderRadius: BorderRadiusDirectional.circular(16),
-            textSize: 16,
-            fontWeight: FontWeight.normal,
-            borderColor: Colors.white24,
-            onPressed: () {},
-          ),
-        ],
+        ),
+        scrollDirection: Axis.horizontal,
+        itemCount: searchCubit.searchCategoriesList.length,
       ),
     );
   }

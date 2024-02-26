@@ -22,3 +22,7 @@ final class SearchBooksFailure extends SearchBooksState {
 
   const SearchBooksFailure(this.errorMessage);
 }
+
+final class SearchCategoriesBooksState extends SearchBooksState {}
+
+final class SearchCategoriesColorBooksState extends SearchBooksState {}

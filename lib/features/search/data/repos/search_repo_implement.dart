@@ -7,18 +7,13 @@ import 'package:dio/dio.dart';
 
 class SearchRepoImlement implements SearchRepo {
   final ApiService apiService;
-  late final String q;
-  late final String qValue;
 
   SearchRepoImlement(this.apiService);
   @override
   Future<Either<Failures, List<BooksModel>>> fetchSearchBooks(
-      {required String searchItem, required String searchCategories}) async {
-    q = searchCategories;
-    qValue = searchItem;
+      {required String q, required String qValue}) async {
     var data = await apiService.get(
-      endPoint:
-          'https://www.googleapis.com/books/v1/volumes?sorting=relevance&q=$q:$qValue&projection=full&',
+      endPoint: 'volumes?q=$q:$qValue&projection=full',
     );
     try {
       List<BooksModel> searchBooks = [];
