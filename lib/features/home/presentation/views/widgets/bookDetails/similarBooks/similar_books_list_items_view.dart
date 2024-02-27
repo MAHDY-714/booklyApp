@@ -38,7 +38,7 @@ class SimilarBooksListItemsBuilder extends StatelessWidget {
                 ),
               );
             },
-            itemCount: state.books.length ?? 5,
+            itemCount: state.books.length,
             scrollDirection: Axis.horizontal,
             shrinkWrap: true,
           ),
