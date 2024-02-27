@@ -1,6 +1,4 @@
 import 'dart:developer';
-
-import 'package:bookly_app/core/utils/assets.dart';
 import 'package:bookly_app/core/utils/constants.dart';
 import 'package:bookly_app/core/utils/styles.dart';
 import 'package:bookly_app/features/search/presentation/manager/cubit/search_books_cubit.dart';
@@ -44,11 +42,12 @@ class TextFieldSearchView extends StatelessWidget {
             onPressed: () {
               fromKey.currentState!.reset();
               searchCubit.searchBooksList!.clear();
+              searchCubit.searchValue == null;
+              searchCubit.searchValue == '';
             },
-            icon: Image.asset(
-              Assets.imagesSearchBook,
-              height: 20,
-              color: Colors.white60,
+            icon: const Icon(
+              Icons.cancel,
+              color: Colors.white24,
             ),
           ),
         ),
@@ -65,6 +64,8 @@ class TextFieldSearchView extends StatelessWidget {
           if (qValue.isEmpty) {
             fromKey.currentState!.reset();
             searchCubit.searchBooksList!.clear();
+            searchCubit.searchValue == null;
+            searchCubit.searchValue == '';
           }
         },
       ),

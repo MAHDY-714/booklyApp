@@ -17,13 +17,6 @@ class ToggleSearchItemBuilder extends StatelessWidget {
     var searchCubit = BlocProvider.of<SearchBooksCubit>(context);
     List<String> categories = ['Author', 'Book Name', 'Subject'];
     return BlocBuilder<SearchBooksCubit, SearchBooksState>(
-      // selector: (state) {
-      //   if (state is SearchCategoriesColorBooksState) {
-      //     return true;
-      //   } else {
-      //     return false;
-      //   }
-      // },
       builder: (context, state) {
         return CustomButton(
           textColor: Colors.white,
@@ -42,12 +35,3 @@ class ToggleSearchItemBuilder extends StatelessWidget {
     );
   }
 }
-
-/* 
-
-searchCubit.searchCategoriesList[index] ==
-                searchCubit.searchCategorie
-            ? kRedColor
-            : Colors.white24;
-
-*/
