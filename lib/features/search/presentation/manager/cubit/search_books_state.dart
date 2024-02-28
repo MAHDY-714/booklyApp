@@ -11,11 +11,7 @@ final class SearchBooksInitial extends SearchBooksState {}
 
 final class SearchBooksLoading extends SearchBooksState {}
 
-final class SearchBooksSuccess extends SearchBooksState {
-  final List<BooksModel> searchBooks;
-
-  const SearchBooksSuccess(this.searchBooks);
-}
+final class SearchBooksSuccess extends SearchBooksState {}
 
 final class SearchBooksFailure extends SearchBooksState {
   final String errorMessage;

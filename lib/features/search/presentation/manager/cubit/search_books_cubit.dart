@@ -39,24 +39,13 @@ class SearchBooksCubit extends Cubit<SearchBooksState> {
       log(searchItem);
       log(searchCategorie);
       searchValue = searchItem;
-      return emit(SearchBooksSuccess(searchBooks));
+      return emit(SearchBooksSuccess());
     });
   }
 
   void searchCategoriesBooks(index, searchItem) {
     log(index.toString());
     searchCategorie = searchCategoriesList[index];
-    if (index == 0) {
-      searchCategorie = searchCategoriesList[index = 0];
-      log('inAuthor');
-    } else if (index == 1) {
-      searchCategorie = searchCategoriesList[index = 1];
-    } else if (index == 2) {
-      searchCategorie = searchCategoriesList[index = 2];
-    } else {
-      searchCategorie = searchCategoriesList[index = 0];
-    }
-    searchCategorieIndex = index;
     log('the categore in searchCategoriesListBooks: ${searchCategoriesList[index]}');
     log('the categore in searchCategoriesBooks: $searchCategorie');
     if (searchItem != null) {
